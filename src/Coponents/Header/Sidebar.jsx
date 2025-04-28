@@ -92,7 +92,7 @@ const Sidebar = () => {
           <h4><MdLogout /> Log Out</h4>
         </div>
 
-        <div className="drishti-div"><img className="drishtilogo" src={drishtilogo} alt="Drishti Logo" /></div>
+        <div className="drishti-div"><img className="drishtilogo" src={drishtilogo} alt="Drishti" /></div>
       </div>
     </div>
   );
