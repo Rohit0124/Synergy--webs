@@ -11,9 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
-          <Route path="master/company/companylisting" element={<CompanyList />} />
-          <Route path='master/structure/StructureList' element={<StructureList/>}/>
-          {/* <Route path="master/structure/StructureList" element={<StructureList />} /> */}
+          <Route path="master/company/companylist" element={<CompanyList />} />
+          <Route path='master/structure/structurelist' element={<StructureList/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

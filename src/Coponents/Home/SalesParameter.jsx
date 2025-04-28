@@ -99,7 +99,7 @@ function SalesParameter() {
                </tbody>
 
                <tfoot>
-                  <tr className='tfoot'>
+                  <tr className='sales-para-tfoot'>
                     <td colspan="5">copy right 2025</td>
                  </tr>
                </tfoot>
