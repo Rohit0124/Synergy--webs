@@ -826,7 +826,7 @@ table {
 }
 
 th {
-    background-color: #e7e7e7;
+    background-color:#c8c8c8;
     padding: 10px;
 
 }
@@ -934,7 +934,6 @@ td:hover {
 }
 
 table {
-    /* border: 1px solid rgb(182, 181, 181); */
     border-radius: 10px;
     width: 100%;
     height: auto; 
@@ -960,16 +959,12 @@ th:hover {
     color: white;
 }
 
-td:hover {
-    background-color: royalblue;
-    color: white;
-}
 
 .company-tfoot > td{
     padding: 20px;
-    font-size: 14px;
-    text-align: start;
+    color: #000000;
     background-color: #e7e7e7;
+    border-top: 1px solid  rgb(182, 181, 181);
 }
 
 
@@ -1086,8 +1081,95 @@ td:hover {
     padding: 20px;
     color: #000000;
     background-color: #e7e7e7;
+    border-top: 1px solid rgb(201, 199, 199);
 }
                               
+
+                                      /*   Franchises List   */
+ 
+ 
+ .frachises-list {
+    width: auto;
+    background-color:#f8f8f8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.frachises-list>h3 {
+    text-align: center;
+}
+
+.frachises-table {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.frachises-bt-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frachises-add-bt{
+    padding: .7rem 1.6rem;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 134, 185);
+    border: none;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: white;
+    right: 0;
+
+}
+
+.frachises-add-bt:hover{
+    background-color: rgb(3, 106, 146);
+}
+
+.frachises-download-bt{
+    padding: .7rem 1.5rem;
+    border-radius: 10px;
+    background-color:rgb(5, 182, 5);
+    border: none;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.frachises-download-bt:hover{
+    background-color: green;
+}
+
+.frachises-input-div{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.frachises-input-div > input{
+    padding: 0.4rem .6rem;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1px solid rgb(219, 218, 218);
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.frachises-tfoot > td{
+    padding: 20px;
+    color: #000000;
+    background-color: #e7e7e7;
+    border-top: 1px solid rgb(201, 199, 199);
+    
+}
+                              
+
 
 
 
@@ -1125,12 +1207,12 @@ td:hover {
   background-color: red;
   color: white;
   font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600px;
   border: 1px solid gray;
-  border-radius: 10px;
-  text-align: center;
+  border-radius: 20px;
+  align-items: center;
   justify-content: center;
-
-  
-
-
+  margin: 20px;
+  margin: 20px;
 }

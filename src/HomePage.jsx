@@ -1,10 +1,10 @@
 import React from 'react'
-import SelectLevel from './Coponents/Home/SelectLevel'
-import PumpStatus from './Coponents/Home/PumpStatus'
-import TodaySales from './Coponents/Home/TodaySales'
-import TodayTransaction from './Coponents/Home/TodayTransaction'
-import GrowthParameter from './Coponents/Home/GrowthParameter'
-import SalesParameter from './Coponents/Home/SalesParameter'
+import SelectLevel from './Components/Home/SelectLevel'
+import PumpStatus from './Components/Home/PumpStatus'
+import TodaySales from './Components/Home/TodaySales'
+import TodayTransaction from './Components/Home/TodayTransaction'
+import GrowthParameter from './Components/Home/GrowthParameter'
+import SalesParameter from './Components/Home/SalesParameter'
 
 const MainPage = () => {
   return (

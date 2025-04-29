@@ -55,7 +55,7 @@ function CompanyList() {
 
                <tfoot>
                   <tr className='company-tfoot'>
-                    <td colspan="12">Showing 1 - 0 of 0 Items</td>
+                    <td colspan="12">Showing</td> 
                  </tr>
                </tfoot>
            </table>

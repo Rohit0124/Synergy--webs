@@ -56,6 +56,7 @@ const config = [
               moduleOrders: 1,
               id: "1-3-1",
               thirdData: [],
+              moduleLink: 'master/franchises/franchiseslist',
             },
           ],
         },
