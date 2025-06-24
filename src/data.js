@@ -72,12 +72,13 @@ const config = [
               moduleOrders: 1,
               id: "1-4-1",
               thirdData: [],
+              moduleLink:'master/usergroups/usergrouplist'
             },
           ],
         },
         {
           moduleName: "templates",
-          moduleDisplayName: "Template Master",
+          moduleDisplayName: "Master Template",
           moduleOrders: 5,
           id: "1-5",
           secondData: [
@@ -87,6 +88,7 @@ const config = [
               moduleOrders: 1,
               id: "1-5-1",
               thirdData: [],
+              moduleLink:'master/mastertemplate/mastertemplatelist'
             },
             {
               moduleName: "Usertemplatelisting",
@@ -94,6 +96,7 @@ const config = [
               moduleOrders: 2,
               id: "1-5-2",
               thirdData: [],
+              moduleLink:'master/mastertemplate/usertemplatelist'
             },
           ],
         },
@@ -112,6 +115,7 @@ const config = [
           moduleOrders: 1,
           id: "2-1",
           secondData: [],
+          moduleLink:'customer/customerlist'
         },
       ],
     },
@@ -140,6 +144,7 @@ const config = [
                   moduleOrders: 1,
                   id: "3-1-1-1",
                   fourthData: [],
+                  moduleLink:'MIS/sales/franchisedetailreport',
                 },
                 {
                   moduleName: "Summaryreport",
@@ -147,6 +152,7 @@ const config = [
                   moduleOrders: 2,
                   id: "3-1-1-2",
                   fourthData: [],
+                  moduleLink:'MIS/sales/franchisesummaryreport',
                 },
               ],
             },
@@ -161,8 +167,8 @@ const config = [
                   moduleDisplayName: "Dispenser Wise Detailed Report",
                   moduleOrders: 1,
                   id: "3-1-2-1",
-                  
                   fourthData: [],
+                  moduleLink:'MIS/sales/dispenserdetailreport',
                 },
                 {
                   moduleName: "Dispensersummary",
@@ -170,6 +176,7 @@ const config = [
                   moduleOrders: 2,
                   id: "3-1-2-2",
                   fourthData: [],
+                  moduleLink:'MIS/sales/dispensersummaryreport',
                 },
               ],
             },
@@ -185,6 +192,7 @@ const config = [
                   moduleOrders: 1,
                   id: "3-1-3-1",
                   fourthData: [],
+                  moduleLink:'MIS/sales/productdetailreport',
                 },
                 {
                   moduleName: "Productsummary",
@@ -192,6 +200,7 @@ const config = [
                   moduleOrders: 2,
                   id: "3-1-3-2",
                   fourthData: [],
+                  moduleLink:'MIS/sales/productsummaryreport',
                 },
               ],
             },
@@ -207,6 +216,7 @@ const config = [
                   moduleOrders: 1,
                   id: "3-1-4-1",
                   fourthData: [],
+                  moduleLink:'MIS/sales/DSMdetailreport',
                 },
                 {
                   moduleName: "Dsmsummary",
@@ -214,6 +224,7 @@ const config = [
                   moduleOrders: 2,
                   id: "3-1-4-2",
                   fourthData: [],
+                  moduleLink:'MIS/sales/DSMsummaryreport',
                 },
               ],
             },
@@ -229,6 +240,7 @@ const config = [
                   moduleOrders: 1,
                   id: "3-1-5-1",
                   fourthData: [],
+                  moduleLink:'MIS/sales/PaymentDetailreport',
                 },
                 {
                   moduleName: "PaymentSummary",
@@ -236,6 +248,7 @@ const config = [
                   moduleOrders: 2,
                   id: "3-1-5-2",
                   fourthData: [],
+                  moduleLink:'MIS/sales/Paymentsummaryreport',
                 },
               ],
             },
@@ -251,6 +264,7 @@ const config = [
                   moduleOrders: 1,
                   id: "3-1-6-1",
                   fourthData: [],
+                  moduleLink:'MIS/sales/Openclosereport',
                 },
               ],
             },
@@ -266,6 +280,7 @@ const config = [
                   moduleOrders: 1,
                   id: "3-1-7-1",
                   fourthData: [],
+                  moduleLink:'MIS/sales/ShiftDetailReport',
                 },
                 {
                   moduleName: "ShiftWiseSummary",
@@ -273,6 +288,7 @@ const config = [
                   moduleOrders: 2,
                   id: "3-1-7-2",
                   fourthData: [],
+                  moduleLink:'MIS/sales/shiftsummaryreport',
                 },
               ],
             },
@@ -284,6 +300,7 @@ const config = [
           moduleOrders: 2,
           id: "3-2",
           secondData: [],
+          moduleLink:'MIS/receivefuelreports'
         },
         {
           moduleName: "ReconcilliatonReport",
@@ -291,6 +308,7 @@ const config = [
           moduleOrders: 3,
           id: "3-3",
           secondData: [],
+          moduleLink:'MIS/reconciliation'
         },
       ],
     },
@@ -313,6 +331,7 @@ const config = [
               moduleOrders: 1,
               id: "4-1-1",
               thirdData: [],
+              moduleLink:'generalsetting/countrylist',
             },
             {
               moduleName: "Statelisting",
@@ -320,6 +339,7 @@ const config = [
               moduleOrders: 2,
               id: "4-1-2",
               thirdData: [],
+              moduleLink:'generalsetting/statelist',
             },
             {
               moduleName: "Districtlisting",
@@ -327,6 +347,7 @@ const config = [
               moduleOrders: 3,
               id: "4-1-3",
               thirdData: [],
+              moduleLink:'generalsetting/districtlist',
             },
           ],
         },
@@ -342,6 +363,7 @@ const config = [
               moduleOrders: 1,
               id: "4-2-1",
               thirdData: [],
+              moduleLink:'generalsetting/oilcompany/oilcompanylist',
             },
           ],
         },
@@ -357,6 +379,7 @@ const config = [
               moduleOrders: 1,
               id: "4-3-1",
               thirdData: [],
+              moduleLink:'generalsetting/product/productfamilylist',
             },
             {
               moduleName: "Productlisting",
@@ -364,6 +387,7 @@ const config = [
               moduleOrders: 2,
               id: "4-3-2",
               thirdData: [],
+              moduleLink:'generalsetting/product/productlist',
             },
           ],
         },
@@ -379,6 +403,7 @@ const config = [
               moduleOrders: 1,
               id: "4-4-1",
               thirdData: [],
+              moduleLink:'generalsetting/device/devicemasterlist',
             },
             {
               moduleName: "devicemakelisting",
@@ -386,6 +411,7 @@ const config = [
               moduleOrders: 2,
               id: "4-4-2",
               thirdData: [],
+              moduleLink:'generalsetting/device/devicemakelist',
             },
           ],
         },
@@ -401,6 +427,7 @@ const config = [
               moduleOrders: 1,
               id: "4-5-1",
               thirdData: [],
+              moduleLink:'generalsetting/protocol/protocollist',
             },
           ],
         },
@@ -416,6 +443,7 @@ const config = [
               moduleOrders: 1,
               id: "4-6-1",
               thirdData: [],
+              moduleLink:'generalsetting/baudrate/baudratelist',
             },
           ],
         },

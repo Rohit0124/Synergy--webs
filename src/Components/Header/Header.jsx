@@ -10,7 +10,7 @@ const Header = ({ toggleSidebar }) => {
       <div className="nav">
         <div className="nav-left">
           <div className="menu-icon" onClick={toggleSidebar}><img src={lines} alt="" /></div>
-          <img src={indianoil} alt="logo" class="nav-logo" />
+          <img src={indianoil} alt="logo" className="nav-logo" />
         </div>
         <button className="guestbt"><FaUser /> Guest (Super User)</button>
         <button className="logbt"><MdLogout /></button>

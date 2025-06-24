@@ -57,22 +57,24 @@ import Chart from 'chart.js/auto';
     <div className="growthparameter">
       <h3>Our Growth Parameter</h3>
       <div className='growthpara-div'>
-        <form className="growth-product">
-          <label>Select Product</label>
-            <select className="growth-form-control" required>
-             <option value="">-- Select Product --</option>
+        <div className='growth-form'>
+        <form>
+          <h3>Select Product</h3>
+            <select className="form-control" required>
+             <option value="">Select Product</option>
              <option>High Speed Diesel</option>
              <option>Petrol</option>
              <option>Xtragreen</option>
            </select>
   
-          <input type="date" required />
-          <input type="date" required />  
-          <button type="submit">Submit</button>
+          <input className="form-control" type="date" required />
+          <input className="form-control" type="date" required />  
+          <button className="form-submit-bt" type="submit">Submit</button>
         </form>
+        </div>
      
-        <div className="growth-chart">
-         <canvas id="myChart" ref={chartRef}></canvas>
+        <div className="chart-div">
+         <canvas ref={chartRef}></canvas>
         </div>
       </div>
       
