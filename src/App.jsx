@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 import Layout from './Components/Layout';
+import LoginPage from './Components/Login/LoginPage';
 import HomePage from './HomePage';
 import CompanyList from './Components/SideComponents/Master/CompanyList';
 import StructureList from './Components/SideComponents/Master/StructureList';
@@ -55,8 +56,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />}/>
+          <Route path="/" element={<LoginPage />} />
+          <Route path="/" element={<Layout />}>
+          <Route path="home" element={<HomePage />} />
           <Route path="master/company/companylist" element={<CompanyList/>}/>
           <Route path='master/structure/structurelist' element={<StructureList/>}/>
           <Route path='master/franchises/franchiseslist' element={<FranchiseList/>}/>
